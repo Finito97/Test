@@ -1,0 +1,122 @@
+POST /SCToolkitWS/DynamicUIService.asmx HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; MS Web Services Client Protocol 4.0.30319.42000)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://qualco.gr/LoadDataFromDataSource"
+Host: qualcoserviceslm.nbg.gr
+Content-Length: 1999
+Expect: 100-continue
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Header><RequestTicket xmlns="http://qualco.gr/"><User>e89377</User><UserCode>20269</UserCode><ApplicationCode>8</ApplicationCode><SessionTicket>c3a605d0-668e-4f8d-b57d-1aef17148fde</SessionTicket></RequestTicket></soap:Header><soap:Body><LoadDataFromDataSource xmlns="http://qualco.gr/"><environment>lm(v.16)</environment><dataSourceID>4202</dataSourceID><tableName /><filterData>rFNNb9NAELXTtDQFRZQKwQ3fOGCZpk1pe8jJAYQwTVqnXKJou3ZG1qqbXbMfEeHKz0YIZi0nCBQpgDqWbO3Ozpvn92Y93/O8Hxju6+JBA19JGo+k5LfMRLFUkLBMUbUIg4+gNJOi14kO3RMGseXGKugJsEZRHgZDm3GWv4fFSN6C6AnL+baDfrYWMbq0oBZpCflDPPOUxIoZUIwmsmA55YMSFDVStVaJNrkCoxjMKf8gp1Av5zCkBVzIg2UWRrK8glyqqd4j14J9soCU9ldpdzxlX+A+GUlDuVvqFukzbZjIzR5JpCgqai2SSmUcwcdkMAel2BQGihVMUO4ybZJeJkOq6AyQn26T159L3I4ltzOhn6xq+tTQVFqVQ4y0H5FrDXWVQhqI0dxqel7lge81/S3v5Qa9XvwhkXPtayNdaAMzrOAccoNO6egtCBQuj/qs2kCQm6PxuD6YYntRhMFMo1acZb8c7v6tw9npKT3JT151zo+7cHh2PgnHm6i/YcCnS0fD4C5nbTLpbur+2wANykolp94uhu/7z9fXVzK6SVla7UpELeMFdqYZh5vOStl3whwf3a2wE9/13P6Ol/Vfp8MN1j38ZQuEeLuN+qq3mg7vG+L9l2jrQZexs+PePwEAAP//7FdbSwJBFN51190dL0l3iv6CT/0CU0soMrCCCBlWdzJrTd3Vh+09eu8nBkHPQe+db1ZxifASFVGKzDoyc/ac73znNvoyuWcmLYmEoutzvoZ8BRDm4K6Vb7c6tic8q2T7l0hQaTp9CoiP7KbnK5qiWQ/qGNQGz2K3b7vNXjCUFyHmd0BYte7HuTJqw9925nkVYcAsWjT8YAgwUH7arIKYSvLRXnsc5+2fjJFQeLl2RUp8MXskZgladAD3G/mN1GWysDorCvTV7uaMl+nrlcrHHAuJheTFtQjisiiqenYmbXDbSKEREa0Or1OdZWkQ7oUABshGhnaLfb/OHdFx24Fw+IVrNxg6Zx3R8x9ShTa2WlLS/Z3lURlWBXzicOts3Iija+Lyr0OqDAaXEZXilW5kRsKMcRx0hMnLHjpSNaZryvak9wxfEREVk/NaiAcNT72gggNu89YGmqW26whP9qLGUpSulpUtk5nLsHVF5kpQE8Yaq6DuSSXPC8Wjg/JZscB3D3J71G6zNZxel7Dg4mfUBSeSkX0m5zhNSXZXwmQeiobdE44emzxVRcQAShgZdt3P03Td725/3CBT87syBcCwSodLmTwBeamc74tWzQ3AAVVRLWMDA3t04kA3aWzSsv+FBFbhJHhHfSIUgERohwq/wRZji5aFgR47BJGwb6AJgybJNwAAAP//AwA=</filterData></LoadDataFromDataSource></soap:Body></soap:Envelope>
+
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Persistent-Auth: true
+X-Powered-By: ASP.NET
+Strict-Transport-Security: max-age=31536000; includeSubDomains;
+X-Content-Type-Options: nosniff
+Date: Wed, 22 Jan 2025 10:25:44 GMT
+Content-Length: 1987
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><LoadDataFromDataSourceResponse xmlns="http://qualco.gr/"><LoadDataFromDataSourceResult><xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"><xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"><xs:complexType><xs:choice minOccurs="0" maxOccurs="unbounded"><xs:element name="Table"><xs:complexType><xs:sequence><xs:element name="USC_CODE" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementStep="-1" type="xs:int" /><xs:element name="USC_CREATED" type="xs:dateTime" /><xs:element name="USC_LAST_UPD" type="xs:dateTime" /><xs:element name="USC_CREATED_BY"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="20" /></xs:restriction></xs:simpleType></xs:element><xs:element name="USC_LAST_UPD_BY"><xs:simpleType><xs:restriction base="xs:string"><xs:maxLength value="20" /></xs:restriction></xs:simpleType></xs:element><xs:element name="USC_MODIFICATION_NUM" type="xs:int" /><xs:element name="USC_INTERNAL" type="xs:boolean" /><xs:element name="ENT_CODE" type="xs:int" /><xs:element name="EMP_CODE" type="xs:int" /><xs:element name="RCO_CODE" type="xs:int" /><xs:element name="USC_CUSTOMIZATIONS" type="xs:base64Binary" /><xs:element name="USC_DEPLOYED_FLAG" type="xs:boolean" /></xs:sequence></xs:complexType></xs:element></xs:choice></xs:complexType><xs:unique name="Constraint1" msdata:PrimaryKey="true"><xs:selector xpath=".//Table" /><xs:field xpath="USC_CODE" /></xs:unique></xs:element></xs:schema><diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" /></LoadDataFromDataSourceResult></LoadDataFromDataSourceResponse></soap:Body></soap:Envelope>
+
+
+
+
+
+POST /SCToolkitWS/ApplicationService.asmx HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; MS Web Services Client Protocol 4.0.30319.42000)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://qualco.gr/RetrieveLookup"
+Host: qualcoserviceslm.nbg.gr
+Content-Length: 1153
+Expect: 100-continue
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Header><RequestTicket xmlns="http://qualco.gr/"><User>e89377</User><UserCode>20269</UserCode><ApplicationCode>8</ApplicationCode><SessionTicket>c3a605d0-668e-4f8d-b57d-1aef17148fde</SessionTicket></RequestTicket></soap:Header><soap:Body><RetrieveLookup xmlns="http://qualco.gr/"><environment>lm(v.16)</environment><code>70</code><loginName>e89377</loginName><params>5FRNS8NAEN02/UhR/0NuXkJotLX20FOUChYspPQSit2EQddusrrZLcSf4U8U8Ud40Z1+UA9SPCgo3cAsu+y8vDdvGFIihLybhTuu/bIJgzAYCcFnTHmBkDBgsaSycJ0xyJyJrOd7TfxcJ9BcaQm9DLSSlLvOUMecJZdQjMQMsl6mOa8i9OGXiF4fMjB5QyppCsqg49u9683Zei6FRa4gNWmcQ6LM7/NlGku8M7a4MEjToyhaPQyVZNmN66R5IiRn8YZ267u0406HtpP2id89bkHztDtx1+BX8Z0h8bPgEyx5wzKhgmEXFFeMzvoKxw5Eek8lSPuC5rche4QDkzmmXMOQMpkTi1j207airPbzB005U8Uab+r/aoUm9us2Up81/GuvomV/omXYno0qNiqe/qInOMLqyJDgJEHi1stOuFR5M0N8N6QuXJ1BUZ2jnFK5VjcXNQmpmEPNRu8/AAAA//9i/A4MDFCAsHGBpHIS89IzU9i4gWzW1Jx49yBuAAAAAP//AwA=</params></RetrieveLookup></soap:Body></soap:Envelope>
+
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Persistent-Auth: true
+X-Powered-By: ASP.NET
+Strict-Transport-Security: max-age=31536000; includeSubDomains;
+X-Content-Type-Options: nosniff
+Date: Wed, 22 Jan 2025 10:25:59 GMT
+Content-Length: 4774
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><RetrieveLookupResponse xmlns="http://qualco.gr/"><RetrieveLookupResult>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</RetrieveLookupResult></RetrieveLookupResponse></soap:Body></soap:Envelope>
+
+
+
+POST /SCToolkitWS/ApplicationService.asmx HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; MS Web Services Client Protocol 4.0.30319.42000)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://qualco.gr/RetrieveLookup"
+Host: qualcoserviceslm.nbg.gr
+Content-Length: 1153
+Expect: 100-continue
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Header><RequestTicket xmlns="http://qualco.gr/"><User>e89377</User><UserCode>20269</UserCode><ApplicationCode>8</ApplicationCode><SessionTicket>c3a605d0-668e-4f8d-b57d-1aef17148fde</SessionTicket></RequestTicket></soap:Header><soap:Body><RetrieveLookup xmlns="http://qualco.gr/"><environment>lm(v.16)</environment><code>72</code><loginName>e89377</loginName><params>5FRNS8NAEN02/UhR/0NuXkJotLX20FOUChYspPQSit2EQddusrrZLcSf4U8U8Ud40Z1+UA9SPCgo3cAsu+y8vDdvGFIihLybhTuu/bIJgzAYCcFnTHmBkDBgsaSycJ0xyJyJrOd7TfxcJ9BcaQm9DLSSlLvOUMecJZdQjMQMsl6mOa8i9OGXiF4fMjB5QyppCsqg49u9683Zei6FRa4gNWmcQ6LM7/NlGku8M7a4MEjToyhaPQyVZNmN66R5IiRn8YZ267u0406HtpP2id89bkHztDtx1+BX8Z0h8bPgEyx5wzKhgmEXFFeMzvoKxw5Eek8lSPuC5rche4QDkzmmXMOQMpkTi1j207airPbzB005U8Uab+r/aoUm9us2Up81/GuvomV/omXYno0qNiqe/qInOMLqyJDgJEHi1stOuFR5M0N8N6QuXJ1BUZ2jnFK5VjcXNQmpmEPNRu8/AAAA//9i/A4MDFCAsHGBpHIS89IzU9i4gWzW1Jx49yBuAAAAAP//AwA=</params></RetrieveLookup></soap:Body></soap:Envelope>
+
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Persistent-Auth: true
+X-Powered-By: ASP.NET
+Strict-Transport-Security: max-age=31536000; includeSubDomains;
+X-Content-Type-Options: nosniff
+Date: Wed, 22 Jan 2025 10:26:01 GMT
+Content-Length: 2690
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><RetrieveLookupResponse xmlns="http://qualco.gr/"><RetrieveLookupResult>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</RetrieveLookupResult></RetrieveLookupResponse></soap:Body></soap:Envelope>
+
+
+
+
+
+POST /SCToolkitWS/ApplicationService.asmx HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; MS Web Services Client Protocol 4.0.30319.42000)
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://qualco.gr/RetrieveLookup"
+Host: qualcoserviceslm.nbg.gr
+Content-Length: 1154
+Expect: 100-continue
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Header><RequestTicket xmlns="http://qualco.gr/"><User>e89377</User><UserCode>20269</UserCode><ApplicationCode>8</ApplicationCode><SessionTicket>c3a605d0-668e-4f8d-b57d-1aef17148fde</SessionTicket></RequestTicket></soap:Header><soap:Body><RetrieveLookup xmlns="http://qualco.gr/"><environment>lm(v.16)</environment><code>286</code><loginName>e89377</loginName><params>5FRNS8NAEN02/UhR/0NuXkJotLX20FOUChYspPQSit2EQddusrrZLcSf4U8U8Ud40Z1+UA9SPCgo3cAsu+y8vDdvGFIihLybhTuu/bIJgzAYCcFnTHmBkDBgsaSycJ0xyJyJrOd7TfxcJ9BcaQm9DLSSlLvOUMecJZdQjMQMsl6mOa8i9OGXiF4fMjB5QyppCsqg49u9683Zei6FRa4gNWmcQ6LM7/NlGku8M7a4MEjToyhaPQyVZNmN66R5IiRn8YZ267u0406HtpP2id89bkHztDtx1+BX8Z0h8bPgEyx5wzKhgmEXFFeMzvoKxw5Eek8lSPuC5rche4QDkzmmXMOQMpkTi1j207airPbzB005U8Uab+r/aoUm9us2Up81/GuvomV/omXYno0qNiqe/qInOMLqyJDgJEHi1stOuFR5M0N8N6QuXJ1BUZ2jnFK5VjcXNQmpmEPNRu8/AAAA//9i/A4MDFCAsHGBpHIS89IzU9i4gWzW1Jx49yBuAAAAAP//AwA=</params></RetrieveLookup></soap:Body></soap:Envelope>
+
+
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Vary: Accept-Encoding
+Server: Microsoft-IIS/10.0
+X-AspNet-Version: 4.0.30319
+Persistent-Auth: true
+X-Powered-By: ASP.NET
+Strict-Transport-Security: max-age=31536000; includeSubDomains;
+X-Content-Type-Options: nosniff
+Date: Wed, 22 Jan 2025 10:26:02 GMT
+Content-Length: 2758
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><RetrieveLookupResponse xmlns="http://qualco.gr/"><RetrieveLookupResult>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</RetrieveLookupResult></RetrieveLookupResponse></soap:Body></soap:Envelope>
+
