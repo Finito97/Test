@@ -1,0 +1,18 @@
+QuerySpec:
+  CriteriaLogicalOperator: AndOperator
+  Criteria: [{FieldName: ROLE_NAME, Value: ' OR 1=1 --, SqlOperator: {}, OrNull: False, DataType: System.String, DataTypeName: System.String}]
+  CriteriaCount: 1
+  RetrievalMode: AllRecords
+  RetrieveTopRecords: 0
+  Distinct: False
+  LongQuery: True
+  UniqueKey: 
+  RetrivePageNo: 0
+  RetrievePageSize: 0
+  TotalPages: 0
+  OverrideOriginalSort: False
+  SortSpec: 
+  SQLParameters: {}
+  ExportColumns: null
+  OverrideDataSourceCode: null
+  UseParametrizeSQL: False
